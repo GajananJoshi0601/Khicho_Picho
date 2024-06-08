@@ -1,0 +1,130 @@
+body{
+    font-family: none;
+    padding: 0;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.navbar{
+    display: grid;
+    background-color: #EEEEEE;
+    /* opacity: 10; */
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    width: 135px;
+    color: black;
+}
+
+.nav-link{
+    color: black;
+}
+
+/* .my-text-container{
+    background-color: #98E4FF;
+    padding-top: 370px;
+    padding-left: 80px;
+    padding-bottom: 180px;
+
+} */
+
+.text{
+    color: #ab5151;
+    position: relative;
+    /* text-decoration: underline; */
+    /* text-decoration-style: dashed; */
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding-top: 370px;
+    padding-left: 60px;
+    padding-bottom: 15px;
+}
+
+.quote{
+    color: black;
+    font-family: initial;
+    font-size: large;
+    position: relative;
+    padding-left: 60px;
+}
+
+.contact-btn{
+    position: relative;
+    border: inset;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: #893f3f;
+    color: white;
+    margin-left: 60px;
+    margin-bottom: 230px;
+    margin-top: 30px;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.contact-btn:hover{
+    background-color: gray;
+    color: black;
+}
+
+.clicks-page{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    gap: 45px;
+}
+
+.card{
+    display: flex;
+    gap: 10px;
+}
+
+.camera-man{
+    position: absolute;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    padding-top: 50px;
+    background-color: aliceblue;
+    margin-top: 100px;
+    order: -1
+}
+
+.fotter-man{
+    margin: 50px;
+    width: 150px;
+}
+
+.photography-quote{
+    padding-right: 20px;
+    font-family: cursive;
+    font-weight: 500px;
+    width: auto;
+}
+
+.navigation{
+    /* display: grid; */
+    font-weight: 500;
+    
+}
+
+
+
+@media screen and (max-width : 900px){
+   
+    .homepage{
+        align-items: -webkit-center;
+    }
+}
